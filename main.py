@@ -68,8 +68,9 @@ class PasswordValidator:
 def main():
     validator = PasswordValidator()
     
-    print("=== Password Strength Tester ===")
-    
+    print("*+=== Password Strength Tester ===+*")
+
+    # Loop for convenience
     while True:
         try:
             password = input("Enter password [or press q to quit]: ")
