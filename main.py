@@ -7,7 +7,7 @@ class PasswordValidator:
         self.common_pwd = {
             '123456', 'admin', '12345678', '123456789', '1234', '12345', 'password', '123', 'Aa123456', '1234567890',
             'unknown', '1234567', '123123', '111111', 'password', '12345678910', '000000', 'admin123', '********', 'user',
-        }
+        } # :)
         
     def password_checker(self, password):
         errs = []
@@ -97,7 +97,7 @@ def main():
             print("\n Exiting the program...")
             break
         except Exception as e:
-            print(f"\n An error occurred: {str(e)}")
+            print(f"\n An error occurred: {str(e)}") #Error handling
             
 if __name__ == "__main__":
     main()
